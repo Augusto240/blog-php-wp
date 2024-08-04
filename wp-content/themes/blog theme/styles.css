@@ -1,0 +1,140 @@
+/*
+ Theme Name: Meu Blog
+ Theme URI: http://meublog.com
+ Author: Seu Nome
+ Author URI: http://seusite.com
+ Description: Um tema simples para blog.
+ Version: 1.0
+*/
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+    padding-top: 60px; /* Espaço para a barra de navegação */
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0066cc;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.site-branding {
+    text-align: center;
+}
+
+.site-title a, .site-title a:visited {
+    color: #fff;
+    font-size: 2em;
+}
+
+.site-description {
+    font-size: 1.2em;
+    color: #ddd;
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+#main-content {
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.entry-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.entry-content {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+
+.entry-footer {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    font-size: 0.9em;
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Custom Styles for Projects */
+.archive .entry-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.archive .entry-content {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.archive .entry-content a {
+    color: #0066cc;
+}
+
+.archive .entry-content a:hover {
+    color: #ff6347;
+}
